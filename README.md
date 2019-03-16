@@ -7,8 +7,8 @@ $ docker build -t webserver .
 
 ## Run
 ```sh
- $ docker run -p 80:80 webserver
- ```
+$ docker run -p 80:80 webserver
+```
 
 ## Dokerfile
 
@@ -43,7 +43,5 @@ EXPOSE 80
 
 CMD node webserver.js
 ```
-
-Instructions for dokerfile
 
  
