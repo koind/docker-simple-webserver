@@ -7,7 +7,7 @@ $ docker build -t webserver .
 
 ## Run
 ```sh
-$ docker run -p 80:80 webserver
+$ docker run -d -p 80:80 webserver
 ```
 
 ## Dokerfile
